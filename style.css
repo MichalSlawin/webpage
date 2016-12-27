@@ -10,10 +10,22 @@ a:hover {
     color: coral;
 }
 
+table, th, td {
+    border: 1px solid black;
+    font-size: large;
+    font-style: italic;
+}
+
 .tekst p {
     margin-right: 12em;
     font-size: large;
 }
+
+.tekst li {
+    margin-right: 12em;
+    font-size: large;
+}
+
 
 #nawigacja {
    position: fixed;
@@ -21,6 +33,7 @@ a:hover {
    top: 0%;
    border-style: none none solid solid;
    border-color: blue;
+   border-width: 0.3em;
    padding: 1em;
 }
 
@@ -29,7 +42,14 @@ a:hover {
     color: blue;
 }
 
-table, th, td {
-    border: 1px solid black;
-    font-size: large;
+#jezyki p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+}
+
+#gora {
+    position: relative;
+    left: 48em;
+    font-size: medium;
+    color: red;
 }
