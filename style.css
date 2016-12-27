@@ -1,0 +1,31 @@
+* {
+    background-color: gainsboro;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: coral;
+}
+
+#jezyki p {
+    margin-right: 12em;
+    font-size: large;
+}
+
+#nawigacja {
+   position: fixed;
+   right: 0%;
+   top: 0%;
+   border-style: none none solid solid;
+   border-color: blue;
+   padding: 1em;
+}
+
+#nawigacja h3 {
+    text-indent: 0.5em;
+    color: blue;
+}
+
