@@ -53,3 +53,13 @@ table, th, td {
     font-size: medium;
     color: red;
 }
+
+#formularz {
+    width:12em;
+    border-style: solid;
+    border-color: azure;
+    padding: 1em;
+    position: absolute;
+    right: 50%;
+    top: 2%;
+}
